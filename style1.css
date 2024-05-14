@@ -1,0 +1,12 @@
+.header-container {
+    background-color: rgb(98, 0, 128);
+}
+.title {
+    color:aqua
+    text-align: center;
+}
+footer {    
+    background-color: rgb(98, 0, 128);
+    text-align: center;
+    color: aqua;
+}

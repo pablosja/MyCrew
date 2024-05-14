@@ -1,0 +1,121 @@
+html {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #333;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.card-item {
+    width: 10%;
+    height: 250px;
+    width: 200px;
+    background-color: #eeeeee;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+/*HOVER*/
+.circle-container1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+.circle-container2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+.circle-container3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+.circle-container1:hover .overlay {
+    background-color:rgb(98, 0, 128);
+    opacity: 1;
+}
+.circle-container2:hover .overlay {
+    background-color:#004880;
+    opacity: 1;
+}
+.circle-container3:hover .overlay {
+    background-color:teal;
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: background-color 0.3s, opacity 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; 
+}
+
+.overlay p {
+    margin: 0;
+    font-size: 16px;
+}
+.circle-container1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.circle-container2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.circle-container3 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/*banner*/
+.banner {
+    background-color: #d38d8d;/*change color*/
+    color: white;
+    padding: 50px;
+    text-align: center;
+    margin: 0 auto;
+    width: 900px;
+    height: 75px;
+    padding: 20px;
+    border-radius: 6px;
+}
+.tools {
+    border: 1px solid white;
+    padding: 20px;
+    display: flexbox;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+.icons {
+    font-size: 30px;
+    color: black;
+}
