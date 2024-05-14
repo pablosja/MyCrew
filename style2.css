@@ -1,7 +1,13 @@
 html {
     text-align: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #333;
+    font-family: 'Bayon';
+    background-color: #fffcfc;
+}
+body {
+width: 1000px;
+margin: auto;
+height: auto;
+font: ('/Page2Images/fonts/Bayon.ttf');
 }
 .card-container {
     display: flex;
@@ -14,7 +20,7 @@ html {
     width: 10%;
     height: 250px;
     width: 200px;
-    background-color: #eeeeee;
+    background-color: #33053d;
     border-radius: 6px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 1%;
@@ -53,7 +59,7 @@ html {
     opacity: 1;
 }
 .circle-container3:hover .overlay {
-    background-color:teal;
+    background-color:rgb(5, 100, 117);
     opacity: 1;
 }
 
@@ -72,7 +78,19 @@ html {
     text-align: center;
     color: white; 
 }
-
+h2 {
+    color: #fffcfc;
+    font-family: 'Bayon';
+}
+p {
+    font-family: 'Bayon';
+}
+.text {
+    color:#15c4ed;
+}
+.ptools {
+    color:#15c4ed;
+}
 .overlay p {
     margin: 0;
     font-size: 16px;
@@ -92,10 +110,10 @@ html {
     height: auto;
     display: block;
 }
-/*banner*/
+/*BANNER*/
 .banner {
-    background-color: #d38d8d;/*change color*/
-    color: white;
+    background-color: #33053d;
+    color: #15c4ed;
     padding: 50px;
     text-align: center;
     margin: 0 auto;
@@ -104,18 +122,24 @@ html {
     padding: 20px;
     border-radius: 6px;
 }
-.tools {
-    border: 1px solid white;
-    padding: 20px;
-    display: flexbox;
-    justify-content: space-around;
-    align-items: center;
+/*TOOLS*/
+.SectionC{
     width: 900px;
-    height: 200px;
-    margin: 0 auto;
-    border-radius: 6px;
+    background-color: #33053d;
+    padding:20px;
+    border-radius: 6px solid;
+    margin: auto;
 }
-.icons {
-    font-size: 30px;
-    color: black;
+.tools {
+    display:flex;
+    justify-content: center;
+    color:#15c4ed;
+    width: 500px;
+}
+.icon {
+   margin-right: 50px;
+}
+.icon img {
+    width: 70px;
+    height: auto;
 }
