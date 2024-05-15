@@ -20,21 +20,49 @@ body {
     border-radius: 5%;
     margin-bottom: 15%;
     color: #15c4ed;
+    overflow: hidden;
 }
 
-label {
-    margin-top:
+.card-item {
+    position: relative;
+    justify-content: center;
+    align-items: center;
 }
 
-button {
-    background-color: #15c4ed;
-    color: #fffcfc;
-    margin-left: 50%;
-    margin-bottom: 5%;
-    margin-top: 5%;
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
+
+.button {
+    display: inline-block;
+    padding: 3px 22px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.button:hover {
+    background-color: #0056b3;
+  }
+
 footer {
     background-color: #33053d;
     text-align: center;
     color: #15c4ed;
+}
+
+@font-face {
+    font-family: 'Bayon';
+    src: url('assets/fonts/Bayon.ttf');
+    font-style: normal;
+    font-weight: normal;
 }
