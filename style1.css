@@ -3,7 +3,7 @@ body {
 }
 
 .header-container {
-    background-color: rgb(98, 0, 128);
+    background-color: #33053d;
 }
 .title {
     color:#15c4ed;
@@ -13,13 +13,17 @@ body {
 
 .login-container {
     text-align: center;
-    background-color: rgb(98,0,128);
+    background-color: #33053d;
     margin: auto;
-    max-width: 40%;
+    max-width: 25%;
     padding: 30;
     border-radius: 5%;
     margin-bottom: 15%;
     color: #15c4ed;
+}
+
+label {
+    margin-top:
 }
 
 button {
@@ -27,9 +31,10 @@ button {
     color: #fffcfc;
     margin-left: 50%;
     margin-bottom: 5%;
+    margin-top: 5%;
 }
 footer {
-    background-color: rgb(98, 0, 128);
+    background-color: #33053d;
     text-align: center;
     color: #15c4ed;
 }
