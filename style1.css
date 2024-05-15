@@ -1,5 +1,14 @@
 body {
     background-color: #fffcfc;
+    font-family: 'Bayon', sans-serif;
+}
+
+
+@font-face {
+    font-family: 'Bayon';
+    src: url('assets/fonts/Bayon.ttf') format(truetype);
+    font-style: normal;
+    font-weight: normal;
 }
 
 .header-container {
@@ -58,11 +67,4 @@ footer {
     background-color: #33053d;
     text-align: center;
     color: #15c4ed;
-}
-
-@font-face {
-    font-family: 'Bayon';
-    src: url('assets/fonts/Bayon.ttf');
-    font-style: normal;
-    font-weight: normal;
 }
