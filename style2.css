@@ -5,6 +5,7 @@ html {
 }
 body {
 width: 100%;
+height: auto;
 margin: auto;
 height: auto;
 font: ('/Page2Images/fonts/Bayon.ttf');
@@ -27,6 +28,8 @@ font: ('/Page2Images/fonts/Bayon.ttf');
     position: relative;
     justify-content: center;
     align-items: center;
+    margin-top: 8.2vh;
+    margin-bottom: 8.2vh;
 }
 /*HOVER*/
 .circle-container1 {
@@ -91,6 +94,7 @@ h2 {
 p {
     font-family: 'Bayon';
     font-size: 20px;
+    color: #15c4ed;
 }
 .text {
     color:#15c4ed;
@@ -129,25 +133,28 @@ p {
 /*TOOLS*/
 .SectionC{
     width: 900px;
-    background-color: #33053d;
+    background-color: rgba(51, 5, 61, 85%);
     padding:20px;
-    border-radius: 6px solid;
     margin: auto;
     margin-top: 0px;
+    border-top-right-radius: 3vh;
+    border-top-left-radius: 3vh;
 }
 .tools {
     display:flex;
+    display: flexbox;
     justify-content: center;
     color:#15c4ed;
-    width: 500px;
+    width: 900px;
     margin-top: 0px;
-}
-.icon {
-   margin-right: 50px;
+    align-items: center;
+    gap: 15vh;
+    position: relative;
+    overflow: hidden;
 }
 .icon img {
-    width: 70px;
-    height: auto;
+    max-width: 70px;
+    max-height: 70px;
 }
 footer {
     background-color: #33053d;
@@ -165,27 +172,24 @@ footer {
 }
 header {
     background-color: #30003b;
-    padding: 10px 20px;
 }
 
 .header-container {
     display: flex;
     align-items: center;
-    height: 300px;
+    height: 22.2vh;
+    justify-content: center;
+    display: flexbox;
 }
 .logo img {
     max-width: 300px; 
     height: auto;
-    margin-left: 170%;
-}
-
-.title h1 {
-    margin-left: 165%;
-    font-size: 124px;
-    color: #15c4ed; /
+    display: block;
 }
 .slogan {
-    margin-top: 5%;
-    color:#15c4ed;
-    text-align: center;
+    display: flexbox;
+}
+h1 {
+    color: #15c4ed;
+    font-size: 6vh;
 }
