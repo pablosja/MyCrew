@@ -1,12 +1,35 @@
+body {
+    background-color: #fffcfc;
+}
+
 .header-container {
     background-color: rgb(98, 0, 128);
 }
 .title {
-    color:aqua;
+    color:#15c4ed;
     text-align: center;
+    margin-bottom: 8%;
+}
+
+.login-container {
+    text-align: center;
+    background-color: rgb(98,0,128);
+    margin: auto;
+    max-width: 40%;
+    padding: 30;
+    border-radius: 5%;
+    margin-bottom: 15%;
+    color: #15c4ed;
+}
+
+button {
+    background-color: #15c4ed;
+    color: #fffcfc;
+    margin-left: 50%;
+    margin-bottom: 5%;
 }
 footer {
     background-color: rgb(98, 0, 128);
     text-align: center;
-    color: aqua;
+    color: #15c4ed;
 }
