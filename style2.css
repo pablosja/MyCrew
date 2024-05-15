@@ -4,7 +4,7 @@ html {
     background-color: #fffcfc;
 }
 body {
-width: 1000px;
+width: 100%;
 margin: auto;
 height: auto;
 font: ('/Page2Images/fonts/Bayon.ttf');
@@ -112,13 +112,12 @@ p {
 }
 /*BANNER*/
 .banner {
-    background-color: #33053d;
-    color: #15c4ed;
+    background-color: #15c4ed;
     padding: 50px;
     text-align: center;
     margin: 0 auto;
-    width: 900px;
-    height: 75px;
+    width: 100%;
+    height: auto;
     padding: 20px;
     border-radius: 6px;
 }
@@ -129,12 +128,14 @@ p {
     padding:20px;
     border-radius: 6px solid;
     margin: auto;
+    margin-top: 0px;
 }
 .tools {
     display:flex;
     justify-content: center;
     color:#15c4ed;
     width: 500px;
+    margin-top: 0px;
 }
 .icon {
    margin-right: 50px;
@@ -142,4 +143,9 @@ p {
 .icon img {
     width: 70px;
     height: auto;
+}
+footer {
+    background-color: #33053d;
+    text-align: center;
+    color: #15c4ed
 }
