@@ -48,12 +48,11 @@ body {
 
 .button {
     display: inline-block;
-    padding: 3px 22px;
-    background-color: #007bff;
+    padding: 1px 22px;
+    background-color: #15c4ed;
     color: #fff;
     text-decoration: none;
-    border: none;
-    border-radius: 5px;
+    border-radius: 6px solid;
     margin-left: 30%;
     margin-top: 8%;
     margin-bottom: 8%;
