@@ -35,6 +35,8 @@ font: ('/Page2Images/fonts/Bayon.ttf');
     border-radius: 50%;
     position: relative;
     overflow: hidden;
+    margin: auto;
+    margin-top: 15px;
 }
 .circle-container2 {
     width: 150px;
@@ -42,6 +44,8 @@ font: ('/Page2Images/fonts/Bayon.ttf');
     border-radius: 50%;
     position: relative;
     overflow: hidden;
+    margin: auto;
+    margin-top: 15px;
 }
 .circle-container3 {
     width: 150px;
@@ -49,6 +53,8 @@ font: ('/Page2Images/fonts/Bayon.ttf');
     border-radius: 50%;
     position: relative;
     overflow: hidden;
+    margin: auto;
+    margin-top: 15px;
 }
 .circle-container1:hover .overlay {
     background-color:rgb(98, 0, 128);
@@ -84,6 +90,7 @@ h2 {
 }
 p {
     font-family: 'Bayon';
+    font-size: 20px;
 }
 .text {
     color:#15c4ed;
@@ -170,7 +177,7 @@ header {
 }
 
 .title h1 {
-    margin-left: 320%;
+    margin-left: 165%;
     font-size: 124px;
     color: #15c4ed; /
 }
