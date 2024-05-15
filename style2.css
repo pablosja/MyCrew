@@ -152,4 +152,36 @@ footer {
     src: url('/assets/fonts/Bayon.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
+<<<<<<< HEAD
+=======
+}
+.header-container {
+    background-color: #33053d;
+}
+header {
+    background-color: #30003b;
+    padding: 10px 20px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    height: 300px;
+}
+.logo img {
+    max-width: 300px; 
+    height: auto;
+    margin-left: 170%;
+}
+
+.title h1 {
+    margin-left: 320%;
+    font-size: 124px;
+    color: #15c4ed; /
+}
+.slogan {
+    margin-top: 5%;
+    color:#15c4ed;
+    text-align: center;
+>>>>>>> 1ece51c7cf52598ce4a4f9c5eeccaf00f7b16677
 }
