@@ -135,7 +135,8 @@ p {
     background-color: rgba(51, 5, 61, 85%);
     padding:20px;
     margin: auto;
-    margin-top: 0px;
+    margin-top: 0;
+    position: absolute;
 }
 .tools {
     display:flex;
@@ -143,11 +144,11 @@ p {
     justify-content: center;
     color:#15c4ed;
     width: 100%;
-    margin-top: 0px;
     align-items: center;
     gap: 15vh;
     position: relative;
     overflow: hidden;
+    bottom: 0%
 }
 .icon img {
     max-width: 70px;
@@ -157,7 +158,10 @@ footer {
     background-color: #33053d;
     text-align: center;
     color: #15c4ed;
-    margin-bottom: 0; 
+    bottom: 0; 
+    position: absolute;
+    width: 100%;
+    height: 40px;
 }
 @font-face {
     font-family: 'Bayon' ;
@@ -176,7 +180,7 @@ footer {
     display: flexbox;
 }
 .logo img {
-    max-width: 300px; 
+    max-width: 30vh; 
     height: auto;
     display: block;
 }
