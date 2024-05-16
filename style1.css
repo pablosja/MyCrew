@@ -7,9 +7,10 @@
     height: 22.2vh;
     justify-content: center;
     display: flexbox;
+    overflow:hidden;
 }
 .logo img {
-    max-width: 300px; 
+    max-width: 150px; 
     height: auto;
     display: block;
 }
