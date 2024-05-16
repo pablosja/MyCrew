@@ -156,7 +156,8 @@ p {
 footer {
     background-color: #33053d;
     text-align: center;
-    color: #15c4ed
+    color: #15c4ed;
+    margin-bottom: 0; 
 }
 @font-face {
     font-family: 'Bayon' ;
