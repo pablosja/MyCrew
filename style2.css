@@ -134,9 +134,13 @@ p {
 .SectionC{
     background-color: rgba(51, 5, 61, 85%);
     padding:20px;
-    margin: auto;
-    margin-top: 0;
-    position: absolute;
+    margin: 0;
+    position: relative;
+    min-width: 97.9%;
+    max-width: 97.9%;
+    display: flexbox;
+    overflow: hidden;
+    max-height: 20%;
 }
 .tools {
     display:flex;
