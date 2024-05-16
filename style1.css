@@ -1,12 +1,69 @@
+body {
+    background-color: #fffcfc;
+    font-family: 'Bayon', sans-serif;
+}
+
+
+@font-face {
+    font-family: 'Bayon';
+    src: url('assets/fonts/Bayon.ttf') format(truetype);
+    font-style: normal;
+    font-weight: normal;
+}
+
 .header-container {
-    background-color: rgb(98, 0, 128);
+    background-color: #33053d;
 }
 .title {
-    color:aqua;
+    color:#15c4ed;
     text-align: center;
+    margin-bottom: 8%;
 }
-footer {
-    background-color: rgb(98, 0, 128);
+
+.login-container {
     text-align: center;
-    color: aqua;
+    background-color: #33053d;
+    margin: auto;
+    max-width: 25%;
+    padding: 30;
+    border-radius: 5%;
+    margin-bottom: 15%;
+    color: #15c4ed;
+    overflow: hidden;
+}
+
+.card-item {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.button {
+    display: inline-block;
+    padding: 1px 22px;
+    background-color: #15c4ed;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px solid;
+    margin-left: 30%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.button:hover {
+    background-color: #0056b3;
+  }
+
+footer {
+    background-color: #33053d;
+    text-align: center;
+    color: #15c4ed;
 }
