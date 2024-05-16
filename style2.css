@@ -166,12 +166,8 @@ footer {
     font-weight: normal;
 }
 .header-container {
-    background-color: #33053d;
-}
-header {
     background-color: #30003b;
 }
-
 .header-container {
     display: flex;
     align-items: center;
