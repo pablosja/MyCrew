@@ -177,10 +177,13 @@ header {
     height: 22.2vh;
     justify-content: center;
     display: flexbox;
+    position: relative;
+    overflow: hidden;
 }
 .logo img {
-    max-width: 300px; 
-    height: auto;
+    max-width: 100%; 
+    height: 28vh;
+    max-height: 100%;
     display: block;
 }
 .slogan {
