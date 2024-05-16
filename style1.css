@@ -1,25 +1,32 @@
+.header-container {
+    background-color: #30003b;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    height: 22.2vh;
+    justify-content: center;
+    display: flexbox;
+}
+.logo img {
+    max-width: 300px; 
+    height: auto;
+    display: block;
+}
+h1 {
+    color: #15c4ed;
+    font-size: 6vh;
+}
 body {
     background-color: #fffcfc;
     font-family: 'Bayon', sans-serif;
 }
-
-
 @font-face {
     font-family: 'Bayon';
     src: url('assets/fonts/Bayon.ttf') format(truetype);
     font-style: normal;
     font-weight: normal;
 }
-
-.header-container {
-    background-color: #33053d;
-}
-.title {
-    color:#15c4ed;
-    text-align: center;
-    margin-bottom: 8%;
-}
-
 .login-container {
     text-align: center;
     background-color: #33053d;
