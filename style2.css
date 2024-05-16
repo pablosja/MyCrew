@@ -132,20 +132,17 @@ p {
 }
 /*TOOLS*/
 .SectionC{
-    width: 900px;
     background-color: rgba(51, 5, 61, 85%);
     padding:20px;
     margin: auto;
     margin-top: 0px;
-    border-top-right-radius: 3vh;
-    border-top-left-radius: 3vh;
 }
 .tools {
     display:flex;
     display: flexbox;
     justify-content: center;
     color:#15c4ed;
-    width: 900px;
+    width: 100%;
     margin-top: 0px;
     align-items: center;
     gap: 15vh;
