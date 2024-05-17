@@ -1,0 +1,19 @@
+.header-container {
+    background-color: #30003b;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    height: 22.2vh;
+    justify-content: center;
+    display: flexbox;
+}
+.logo img {
+    max-width: 30vh; 
+    height: auto;
+    display: block;
+}
+h1 {
+    color: #15c4ed;
+    font-size: 6vh;
+}

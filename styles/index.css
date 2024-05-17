@@ -25,6 +25,7 @@ body {
     width: 100%;
     height: auto;
     margin: auto;
+    font: ('/assets/fonts/Bayon.ttf');
 }
 @font-face {
     font-family: 'Bayon';
